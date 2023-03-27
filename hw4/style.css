@@ -141,7 +141,7 @@
   border: 1px solid #333333;
   border-radius: 6px;
 }
-.firstname_main {
+.firstname_main { border: none;
   position: absolute;
   font-family: "Lato";
   font-style: normal;
@@ -151,7 +151,7 @@
   margin: 21px 0px 20px 31px;
   color: rgba(19, 39, 67, 0.5);
   border-radius: 6px;
-}
+  }
 
 .frame2 {
   box-sizing: border-box;
@@ -162,7 +162,7 @@
   border: 1px solid #333333;
   border-radius: 6px;
 }
-.lastname_main {
+.lastname_main { border: none;
   position: absolute;
   font-family: "Lato";
   font-style: normal;
@@ -183,7 +183,7 @@
   border: 1px solid #333333;
   border-radius: 6px;
 }
-.phonenumber_main {
+.phonenumber_main { border: none;
   position: absolute;
   font-family: "Lato";
   font-style: normal;
@@ -206,7 +206,7 @@
   border: 1px solid #333333;
   border-radius: 6px;
 }
-.ss_main {
+.ss_main { border: none;
   position: absolute;
   font-family: "Lato";
   font-style: normal;
