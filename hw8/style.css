@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.boxs {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgb(100, 100, 100);
+  height: 300px;
+  width: 200px;
+}
+
+.boxs > div:nth-last-child(-n + 4) {
+  background-color: blue;
+}
+.boxs > div:nth-last-child(4n + 2) {
+  background-color: rgb(255, 0, 0);
+}
+
+.button_s_box {
+  width: 991px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 20px;
+  width: 501px;
+  height: 92px;
+  background: #44d3a8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border-style: none;
+  cursor: pointer;
+  display: flex;
+  display: inline-block;
+  position: relative;
+}
+.button:hover {
+  background: #37856f;
+}
+.button_text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.button:before {
+  display: block;
+  content: "";
+  left: -246px;
+  width: 200px;
+  height: 12px;
+  border: solid;
+  border-color: #c4c4c4 #ffffff #c4c4c4 #ffffff;
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  margin-top: 1%;
+}
+
+.button:after {
+  display: block;
+  content: "";
+  right: -246px;
+  position: absolute;
+  width: 200px;
+  height: 12px;
+  border: solid;
+  border-color: #c4c4c4 #ffffff #c4c4c4 #ffffff;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-top: -4.5%;
+}
